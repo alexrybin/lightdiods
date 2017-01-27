@@ -50,8 +50,10 @@ if  ($this->category->name != 'Главная'){
 
 
 
-    <div class="product-block__wrapper">
-        <div class="product-block__row">
+    <div class="page-category__block-content">
+    <div class="l-container">
+        <div class="l-row">
+            <div class="filter"></div>
 
             <?php foreach ($this->rows as $k=>$product){
 
@@ -65,6 +67,7 @@ if  ($this->category->name != 'Главная'){
 
 
 
+        </div>
         </div>
     </div>
 

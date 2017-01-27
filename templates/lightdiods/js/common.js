@@ -249,6 +249,15 @@ else{
 
 $('.controls').prepend('<span class="view_catalog_title"> Вид каталога: </span>');
 
+
+
+
+    var filter = $('.ExtendedFilterContainer');
+
+
+
+
+    $('.filter').append(filter);
 });
 
 
