@@ -1,0 +1,33 @@
+h1,h2,h3,h4,h5,h6, .button{
+  font-family:$rcb;
+  font-weight: normal;
+
+}
+
+
+
+h1  {
+  margin: 0;
+  font-size: em(36px);
+  color: $black;
+  margin-bottom: 20px;
+
+}
+
+h2{
+  margin: 0;
+  font-size: em(30px);
+  color: $black;
+  margin-bottom: 20px;
+
+
+
+}
+
+.l-container {
+  @extend .container;
+}
+
+.l-row {
+  @include make-row();
+}

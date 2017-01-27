@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+<name>Jshopping Tree categories</name> 
+	<creationDate>20.02.2012</creationDate>
+    <author>MAXXmarketing GmbH</author>
+    <authorEmail>marketing@maxx-marketing.net</authorEmail>
+    <authorUrl>http://www.webdesigner-profi.de</authorUrl>
+    <copyright></copyright>
+    <license>MAXXmarketing GmbH</license>
+    <version>3.4.3</version>
+	<description>Displays a categories in shop.</description>
+	<files>
+		<filename module="mod_jshopping_tree_categories">mod_jshopping_tree_categories.php</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+	</files>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+		        <field name="show_image" type="radio" default="0" label="Show image" description="Show images by module categories">
+			        <option value="0">No</option>
+			        <option value="1">Yes</option>
+		        </field>
+                <field name="display_count_product" type="radio" default="0" label="Display count product" description="Display count product">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+		        <field name="sort" type="list" default="id" label="Sort" description="Sort categories by">
+			        <option value="id">Id</option>
+			        <option value="name">Name</option>
+			        <option value="order">Ordering</option>
+		        </field>
+		        <field name="ordering" type="radio" default="asc" label="Sort" description="Sort categories by">
+			        <option value="asc">Ascending</option>
+			        <option value="desc">Descending</option>
+		        </field>
+                <field name="start_cat" type="text" default="0" label="Start category ID" description="Start category ID" />
+                <field name="display_tree" type="radio" default="1" label="Show tree categories" description="Show tree categories">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="dropdown" type="list" default="0" label="Use special view" description="Use special view">
+                    <option value="0">No</option>
+                    <option value="t">Tree view</option>
+                    <option value="h">Horizontal</option>
+					<option value="v">Vertical</option>
+                </field>
+                <field name="dropping_position" type="radio" default="1" label="Dropping-out for view" description="Dropping-out for view">
+                    <option value="0">Left</option>
+                    <option value="1">Right</option>
+                </field>
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	        </fieldset> 
+        </fields>
+    </config>
+</extension>

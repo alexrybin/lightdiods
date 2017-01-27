@@ -1,0 +1,413 @@
+@import "bourbon";
+
+.page-category__table-content{
+  .filter{
+    position: absolute;
+
+    @include clearfix;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    width: 268px;
+
+
+
+    height: 500px;
+    background-color: #5ab462;
+    @include custom(0px,768px){
+      display: none;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+.product-block--table__row {
+  @include make-row();
+  h2 {
+
+    margin: 0 auto;
+    width: 268px;
+    font-size: em(36px);
+    margin-bottom: 20px;
+    @media only screen and (min-width: 600px) and (max-width: 1920px) {
+      margin: 0;
+      margin-bottom: 20px;
+      margin-left: 20px;
+
+    }
+  }
+}
+
+.product-block--table {
+
+  &__wrapper {
+
+    @extend .container;
+
+  }
+
+  &__row {
+    @include make-row();
+    h2 {
+
+      margin: 0 auto;
+      width: 268px;
+      font-size: em(36px);
+      margin-bottom: 20px;
+      @media only screen and (min-width: 600px) and (max-width: 1920px) {
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+&__item:last-child{
+  margin-bottom: 20px;
+}
+
+  &__item {
+
+    @include custom(320px,768px){
+      margin-bottom: 15px;
+margin-left: 15px;
+
+    }
+
+
+    position: relative;
+
+@include lg(9);
+@include md(8);
+@include sm(8);
+@include xs(11);
+
+@include custom(1200px,1920px){
+  width: 73.3%;
+}
+    @include custom(768px,991px){
+      width: 57%;
+    }
+
+    margin-top: 20px;
+
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+
+    @media only screen and (min-width: 768px) and (max-width: 1920px) {
+      float: left;
+      margin-left: 300px;
+    }
+
+  }
+
+  &__top {
+    @include lg(4);
+    @include md(6);
+    @include sm(4);
+    @include xs(4);
+
+
+    @include custom(320px,480px){
+      width: 45%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+@include min768 {
+  height: 245px;
+}
+    @include min320{
+      height: 245px;
+    }
+    margin-left: -15px;
+    padding-top: 20px;
+    background: #fff;
+
+
+  }
+
+  &__image {
+
+    img {
+      height: 196px;
+      max-width: 248px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 22px;
+      margin-bottom: 22px;
+@include min768 {
+  width: 100%;
+  height: auto;
+}
+@include min320{
+  width: 100%;
+  height: auto;
+
+
+}
+      @include min480{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &__price {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background: $green;
+    color: $white;
+    font-family: $rcb;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__old-price {
+    position: absolute;
+    font-family: $rcb;
+    font-size: 14px;
+    color: $grey;
+    text-decoration: line-through;
+    bottom: 41px;
+    left: 16px;
+    z-index: 2;
+    span{
+      font-size: 14px;
+      color: $grey;
+      text-decoration: line-through;
+    }
+
+
+
+
+
+  }
+
+
+
+
+  &__name {
+
+
+
+    @include custom(320px,1200px){
+      margin: 0;
+      padding: 0;
+      margin-top: 15px;
+      margin-bottom: 60px;
+      margin-left: 50px;
+      padding-right: 5px;
+
+    }
+    @include custom(768px,991px){
+      margin-bottom: 25px;
+    }
+    @include custom(320px,768px){
+      margin-bottom: 15px;
+
+    }
+    @include custom(320px,768px){
+      margin-left: 0px;
+
+    }
+
+      margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: $rcb;
+    font-size: 14px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    a {
+      color: $black;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+
+    }
+
+  }
+  &__description {
+@include custom(320px,1200px){
+  display: none;
+}
+
+    height: 100px;
+    p {
+      font-family: $cr;
+      color: $grey;
+      font-size: 16px;
+      padding-left: 30px;
+      padding-bottom: 10px;
+      float: left;
+      width: 50%;
+      margin: 0;
+      strong {
+
+      }
+    }
+
+  }
+  &__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 22px;
+    background: $red;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $rcb;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  &__triangle {
+    width: 0;
+    height: 0;
+    border-top: 14px solid $red;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 22px;
+    left: 0;
+
+  }
+
+  &__one-click {
+
+    font-family: $rcr;
+    font-size: 16px;
+    color: $grey-black;
+ line-height: 36px;
+margin-left: 15px;
+
+    @include custom(320px,1200px){
+      line-height: 14px;
+      margin-left:50px;
+
+      font-size: 14px;
+
+
+    }
+    @include custom(320px,768px){
+      margin-left: 10px;
+      display: inline-block;
+      margin-top: 10px;
+
+    }
+
+    @include custom(320px,479px){
+      position: absolute;
+      margin-left: 3px;
+
+    }
+
+    &:hover {
+      color: $black;
+    }
+  }
+  &__bottom {
+    @include custom(320px,768px){
+      padding-bottom: 0px;
+
+    }
+    @include custom(320px,480px){
+      width: 58%;
+
+    }
+
+
+
+
+
+    .button--add_to_cart {
+      float: left;
+      @include custom(320px,1200px){
+        float: none;
+        display: none;
+      }
+
+
+    }
+
+    .button--mobile{
+
+      @include custom(320px,768px){
+        margin-left: 0px;
+
+      }
+
+
+
+
+@include custom(320px,1200px){
+  display: block;
+
+
+  float: none;
+
+
+
+}
+      @include custom(768px,1200px){
+        margin-left: 50px;
+      }
+      @include custom(480px,768px){
+        float: left;
+
+      }
+
+    }
+padding-bottom: 20px;
+    @include lg(8);
+    @include md(6);
+    @include sm(6);
+    @include xs(8);
+  }
+
+}
+
+
+.page-category__block-content {
+  margin-top: 30px;
+}

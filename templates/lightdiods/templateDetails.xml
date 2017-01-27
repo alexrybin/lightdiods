@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template">
+	<name>Lightdiods</name>
+	<version>1.0.0</version>
+	<creationDate>02.10.2016</creationDate>
+	<author>Алексей Рыбин</author>
+	<authorMail>9547155@mail.com</authorMail>
+	<authorUrl>httP://site.ru</authorUrl>
+	<copyright>Copyright (C) Lightdiods</copyright>
+	<license>GPL</license>
+	<description>TPL_DELIGHT_DESCRIPTION</description>
+	
+	<files>
+		
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>img</folder>
+		<folder>html</folder>
+		<folder>fonts</folder>
+		<folder>language</folder>
+
+		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		
+		
+	</files>
+	
+	<positions>
+		
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+		<position>position-16</position>
+		<position>position-17</position>
+		<position>position-18</position>
+		<position>position-19</position>
+		<position>position-20</position>
+		<position>position-21</position>
+		<position>position-22</position>
+		<position>position-23</position>
+		<position>position-24</position>
+		<position>position-25</position>
+		<position>position-26</position>
+		<position>position-27</position>
+		<position>position-28</position>
+		<position>position-29</position>
+		<position>position-30</position>
+
+	</positions>
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_lightdiods.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_lightdiods.sys.ini</language>
+
+		
+	</languages>
+
+	
+	<config>
+		
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="site_logo" 
+					type="media" 
+					label="Логотип" 
+					description="Описание">
+					
+				</field>
+				
+				<field name="site_name" 
+					type="text" 
+					label="Введите название сайта"
+					description="Название сайта">
+					
+				</field>
+				
+
+				
+				
+				
+				
+			</fieldset>
+		</fields>
+		
+	</config>
+	
+</extension>

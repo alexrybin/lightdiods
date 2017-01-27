@@ -1,0 +1,29 @@
+
+
+
+.page-category__block-content{
+  .filter{
+    position: relative;
+    margin: 0 auto;
+    @include clearfix;
+    margin-bottom: 20px;
+
+
+    width: 268px;
+    @media only screen and (min-width: 600px) and (max-width: 1920px) {
+      float: left;
+      margin-left: 20px;
+    }
+
+
+    height: 2000px;
+    background-color: #5ab462;
+
+  }
+
+
+
+
+
+
+}

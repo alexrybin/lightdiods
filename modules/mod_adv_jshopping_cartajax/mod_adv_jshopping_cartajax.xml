@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>JoomShopping - Advanced CartAjax</name> 
+	<creationDate>21.08.2013</creationDate>
+    <author>MAXXmarketing GmbH</author>
+    <authorEmail>marketing@maxx-marketing.net</authorEmail>
+    <authorUrl>http://www.webdesigner-profi.de</authorUrl>
+    <copyright></copyright>
+    <license>MAXXmarketing GmbH</license>
+    <version>3.3.0</version>
+	<description>Shopping advanced cart for JoomShopping</description>
+	<files>
+		<filename module="mod_adv_jshopping_cartajax">mod_adv_jshopping_cartajax.php</filename>
+	    <filename>cartajax_adv_module.css</filename>
+	    <filename>cartajax_adv_module.js</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>images</folder>
+	</files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="showImage" type = "radio" default = "1" label = "Show product image" description = "Show product image" >
+                    <option value = "0">No</option>
+                    <option value = "1">Yes</option>
+                </field>
+                <field name="showEan" type = "radio" default = "1" label = "Show product code" description = "Show product code" >
+                    <option value = "0">No</option>
+                    <option value = "1">Yes</option>
+                </field>
+                <field name="open_info" type = "radio" default = "0" label = "Show products information after reload page" description = "Show products information after reload page" >
+                    <option value = "1">Yes</option>
+                    <option value = "0">No</option>
+                </field>
+                <field name="showLinkToCart" type = "radio" default = "1" label = "Show link to cart or to checkout" description = "Show link to cart or to checkout" >
+                    <option value = "0">To cart</option>
+                    <option value = "1">To checkout</option>
+                </field>
+                
+                <field
+                    name="delay"
+                    type="text"
+                    label="Delay (ms)"
+                    default="3000"
+                    description="The delay before the list of products will be automatically closed" />
+                
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+                <field
+                    name="cache"
+                    type="list"
+                    default="0"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option
+                        value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,107 @@
+div.jshop_tree_categories {
+	/*width: 100%;*/
+	width: 806px;
+}
+
+ul#cattree0-h {
+	width: auto;
+	border: 0;
+	border-left: 1px solid #444;
+	font-size: 0;
+	line-height: 0;
+	height: 30px;
+}
+
+ul#cattree0-h ul {
+	border: 1px solid #444;
+	border-top: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+ul#cattree0-h,
+ul#cattree0-h li,
+ul#cattree0-h ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	z-index: 89;
+}
+ul#cattree0-h li {
+	/*display: inline-block;*/
+	float: left;
+	width: 160px;
+	position: relative;
+	z-index: 89;
+	border: 1px solid #444;
+	border-left: 0;
+}
+
+ul#cattree0-h li li{
+	float: none;
+	display: block;
+	width: auto;
+	border: 0;
+	border-top: 1px solid #444;
+}
+
+ul#cattree0-h ul {
+	display: none;
+	width: 160px;
+	display: none;
+    position: absolute;
+    top: 28px;
+    left: -1px;
+}
+ul#cattree0-h a {
+	padding: 0 0 0 6px;
+	display: block;
+	color: #444;
+	background: #eee;
+	text-decoration: none;
+	height: 100%;
+}
+ul#cattree0-h a, ul#cattree0-h a span {
+	font: bold 12px/28px Verdana, Arial;
+}
+
+#cattree0-h ul ul{
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: 100%;
+}
+
+ul#cattree0-h a:hover,
+ul#cattree0-h li.iehover a {
+	color: #fff;
+	background: #444;
+}
+
+ul#cattree0-h li.iehover li a:hover,
+ul#cattree0-h li.iehover li.iehover a,
+ul#cattree0-h li.iehover li.iehover a:hover,
+ul#cattree0-h li.iehover li.iehover li.iehover a,
+ul#cattree0-h li.iehover li.iehover li.iehover a:hover,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover a:hover,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover a:hover,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover a:hover,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover a:hover{
+	color: #fff;
+	background: #444;
+}
+
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover li a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li.iehover li a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li.iehover li a,
+ul#cattree0-h li.iehover li.iehover li.iehover li.iehover li a,
+ul#cattree0-h li.iehover li.iehover li.iehover li a,
+ul#cattree0-h li.iehover li.iehover li a,
+ul#cattree0-h li.iehover li a {
+	color: #444;
+	background: #eee;
+}

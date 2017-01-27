@@ -1,0 +1,19 @@
+#cattree0-h ul ul{
+	top: 0 !important;
+}
+
+ul#cattree0-v li.iehover ul ul,
+ul#cattree0-v li.iehover ul ul ul,
+ul#cattree0-h li.iehover ul ul,
+ul#cattree0-h li.iehover ul ul ul {
+	display: none;
+}
+
+ul#cattree0-v li.iehover ul,
+ul#cattree0-v ul li.iehover ul,
+ul#cattree0-v ul ul li.iehover ul,
+ul#cattree0-h li.iehover ul,
+ul#cattree0-h ul li.iehover ul,
+ul#cattree0-h ul ul li.iehover ul {
+	display: block;
+}

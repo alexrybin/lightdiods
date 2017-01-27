@@ -1,0 +1,33 @@
+#cartajax-overlay
+{
+    position : fixed;
+    left : 0;
+    top : 0;
+    z-index : 65533;
+    background : url('../images/cartajax-loading.gif') no-repeat center center white;
+    opacity : 0.5;
+    filter:alpha(opacity=50);
+}
+
+#product_added_to_cart
+{
+	font-size: 12px;
+	position: relative;
+}
+
+/*#product_added_to_cart a
+{
+	position: absolute;
+	bottom: 0;
+}
+
+#product_added_to_cart a.cart
+{
+	right: 0;
+}*/
+
+#product_added_to_cart span
+{
+	display: block;
+	padding-bottom: 20px;
+}

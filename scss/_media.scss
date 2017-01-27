@@ -1,0 +1,42 @@
+@mixin min1200 {
+  @media only screen and (min-width : 1200px){
+    @content;
+  }
+}
+
+@mixin min992 {
+  @media only screen and (min-width : 992px) and (max-width: 1199px){
+    @content;
+  }
+}
+
+
+@mixin min768 {
+  @media only screen and (min-width : 768px)and (max-width: 991px)  {
+    @content;
+  }
+
+}
+
+@mixin min480 {
+  @media only screen and (min-width : 480px)and (max-width: 767px)  {
+    @content;
+  }
+
+}
+
+
+@mixin min320 {
+  @media only screen and (min-width : 320px) and (max-width: 479px){
+    @content;
+  }
+
+}
+
+@mixin custom($min,$max){
+  @media only screen and (min-width : $min) and (max-width: $max){
+    @content;
+  }
+
+
+}

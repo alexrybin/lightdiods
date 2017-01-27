@@ -1,0 +1,224 @@
+
+.list_product_ps1{
+    margin-top:20px;
+    border:1px solid #AAA;
+    border-bottom: 0px;
+}
+.list_product_ps1 .products_row{
+    border-bottom: 1px solid #AAA;
+}
+.jshop_list_product .list_product_ps1 .block_product{
+    float:left;
+    padding-bottom: 0px;
+}
+.list_product_ps1 .pline_block{
+    min-height: 230px;
+    border-right: 1px solid #AAA;    
+}
+.list_product_ps1 .last_block .pline_block{
+    border-right: 0px;    
+}
+.list_product_ps1 .name{
+    padding-top:8px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.list_product_ps1 .image{
+    width: auto;
+    text-align: center;
+}
+.list_product_ps1 .review_mark{
+    margin-left: auto;
+    margin-right: auto;
+}
+.list_product_ps1 .image_block{
+    display: inline-block;
+}
+.list_product_ps1 img.jshop_img {
+    border: 0px;
+}
+
+
+
+
+.list_product_ps2{
+    margin-top:20px;
+    border:1px solid #AAA;
+    border-bottom: 0px;
+}
+.list_product_ps2 .products_row{
+    border-bottom: 1px solid #AAA;
+}
+.jshop_list_product .list_product_ps2 .block_product{
+    float:left;
+    padding-bottom: 0px;
+}
+.list_product_ps2 .pline_block{
+    min-height: 210px;
+    border-right: 1px solid #AAA;    
+}
+.list_product_ps2 .last_block .pline_block{
+    border-right: 0px;    
+}
+.list_product_ps2 .name{
+    padding-top:8px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.list_product_ps2 .image{
+    width: auto;
+    text-align: center;
+}
+.list_product_ps2 .image_block{
+    display: inline-block;
+}
+.list_product_ps2 img.jshop_img {
+    border: 0px;
+}
+
+
+
+
+
+.list_product_ps3{
+    margin-top:20px;
+    border:1px solid #AAA;
+    border-bottom: 0px;
+}
+.list_product_ps3 .products_row{
+    border-bottom: 1px solid #AAA;
+}
+.jshop_list_product .list_product_ps3 .block_product{    
+    padding-bottom: 0px;
+}
+.list_product_ps3 .name{
+    width: 25%;
+    float:left;
+    padding-top:5px;
+    padding-bottom: 5px;    
+}
+.list_product_ps3 .image{
+    width: 20%;
+    text-align: center;
+    float:left;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.list_product_ps3  .product .image {
+    padding-right: 0px;
+}
+.list_product_ps3 .price{
+    width: 20%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    float:left;
+}
+.list_product_ps3 .review{
+    width: 20%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    float:left;
+}
+.list_product_ps3 .block_buttons{
+    width: 15%;
+    float:left;
+    padding-top:5px;    
+    padding-bottom: 5px;
+    text-align: right;
+}
+.list_product_ps3 .block_buttons .buttons .buy{
+    padding-top:2px;
+}
+.list_product_ps3 .block_buttons .buttons{
+    padding-right: 15px;
+}
+
+.list_product_ps3 .image_block{
+    display: inline-block;
+}
+.list_product_ps3 img.jshop_img {
+    border: 0px;
+}
+
+
+
+
+.list_product_ps4{
+    margin-top:20px;
+    border:1px solid #AAA;
+    border-bottom: 0px;
+}
+.list_product_ps4 .products_row{
+    border-bottom: 1px solid #AAA;
+}
+.jshop_list_product .list_product_ps4 .block_product{    
+    padding-bottom: 0px;
+}
+.list_product_ps4 .image{
+    width: 20%;
+    text-align: center;
+    float:left;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.list_product_ps4  .product .image {
+    padding-right: 0px;
+}
+.list_product_ps4 .info{
+    width: 80%;    
+    float:left;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.list_product_ps4 .image_block{
+    display: inline-block;
+}
+.list_product_ps5 img.jshop_img {
+    border: 0px;
+}
+.list_product_ps4 .review_mark{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.list_product_ps5{
+    margin-top:20px;
+    border:1px solid #AAA;
+    border-bottom: 0px;
+}
+.list_product_ps5 .products_row{
+    border-bottom: 1px solid #AAA;
+}
+.jshop_list_product .list_product_ps5 .block_product{
+    float:left;
+    padding-bottom: 0px;
+}
+.list_product_ps5 .pline_block{
+    min-height: 180px;
+    border-right: 1px solid #AAA;    
+}
+.list_product_ps5 .last_block .pline_block{
+    border-right: 0px;    
+}
+.list_product_ps5 .image{
+    padding-top:8px;
+    width: auto;
+    text-align: center;
+}
+.list_product_ps5 img.jshop_img {
+    border: 0px;
+}
+.list_product_ps5 .image_block{
+    display: inline-block;
+}
+
+label#3-lbl.radio {
+    background-image: url("http://lightdiods.ru/components/com_jshopping/images/list.png") ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 32px !important;
+
+}
